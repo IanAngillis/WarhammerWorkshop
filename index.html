@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="battle" style="width: 100%;">
+            <section>
+                <button onclick="simulateFightPhase()">Simulate</button>
+                <br>
+                <label>Fight value equal resolve method</label>
+                <input id="resolve_method_is_coin_toss" type="checkbox">
+                <br>
+                <label>Winner dices</label>
+                <input id="winner_dices" type="number">
+                <br>
+                
+
+
+            </section>
+            <section id="attacker" style="width: 48%; float: left; box-sizing: border-box;">
+                <h3>Attacker</h3>
+                <label>Number of dice</label>
+                <input id="attacker_dices" type="number" >
+                <br>
+                <label>Fight value</label>
+                <input id="attacker_fight_value" type="number">
+                <br>
+                <label>Strength value</label>
+                <input id="attacker_strength_value" type="number">
+                <br>
+                <label>Defence value</label>
+                <input id="attacker_defence_value" type="number">
+                <br>
+                <label>-1 on dice roll</label>
+                <input id="attacker_minus_on_dice" type="number">
+                <section id="attacker_diceroll_visuals">
+                </section>
+            </section>
+            <section id="defender" style="width: 48%; float: left;">
+                <h3>Defender</h3>
+                <label>Number of dice</label>
+                <input id="defender_dices" type="number" >
+                <br>
+                <label>Fight value</label>
+                <input id="defender_fight_value" type="number">
+                <br>
+                <label>Strength value</label>
+                <input id="defender_strength_value" type="number">
+                <br>
+                <label>Defence value</label>
+                <input id="defender_defence_value" type="number">
+                <br>
+                <label>-1 on dice roll</label>
+                <input id="defender_minus_on_dice" type="number">
+                <section id="defender_diceroll_visuals">
+
+                </section>
+            </section>
+           <br>
+            
+
+            </section>
+        </section>
+
+    </main>
+    <p>Another nerdy thing</p>
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
